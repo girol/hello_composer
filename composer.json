@@ -15,5 +15,12 @@
         "psr-4" : {
             "Girol\\HelloComposer\\" : "src"
         }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Girol\\HelloComposer\\HelloComposerServiceProvider"
+          ]
+        }
     }
 }
