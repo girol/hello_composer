@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4" : {
-            "Girol\\hello_composer\\" : "src"
+            "Girol\\HelloComposer\\" : "src"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Girol\HelloComposer;
 
 use Illuminate\Support\ServiceProvider;
 
