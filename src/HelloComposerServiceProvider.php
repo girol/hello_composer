@@ -23,6 +23,10 @@ class HelloComposerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                HelloComposer::class,
+            ]);
+        }
     }
 }
