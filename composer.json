@@ -1,0 +1,19 @@
+{
+    "name": "girol/hello_composer",
+    "description": "Biblioteca para empacotar no composer e Laravel",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "André Luiz Girol",
+            "email": "andregirol@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Girol\\hello_composer" : "src"
+        }
+    }
+}
